@@ -1,0 +1,86 @@
+html {
+	overflow-y: scroll; 
+}
+
+body {
+    background:white;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 70%;
+}
+
+h1 {
+    text-align:center;
+    color:black;
+    font-weight:normal;
+    margin:0 0 40px;
+}
+
+/* .top-row { 
+    display: flex; /* or inline-flex */
+    /* justify-content:space-between; */
+    /* width: 100%;
+} */
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+
+.input-container, .button-container {
+    height: 3rem;
+    margin: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-container input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3px
+    border-style: thin;
+}
+
+.button-container div {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+
+#term-div-left {
+    width: 20%;
+}
+
+#term-div-right {
+    width: 80%;
+}
+
+.button-container #register {
+    background-color: #428bca;
+    color: white;
+}
+
+.button-container #signin {
+    color: white;
+    background-color: #5db85b;
+}
+
+span#register {
+    background-color: #428bca;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+}

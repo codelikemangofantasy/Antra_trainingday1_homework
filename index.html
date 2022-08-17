@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>SignUpPage</title>
+</head>
+<body>
+    <div class="form">
+        <div class="tab-content">
+            <div id="signup">
+                <h1>Sign Up</h1>
+            </div>
+        </div>
+
+        <form action="/" method="post">
+            <div class="main-container">
+                <div class="row">
+                    <div class="input-container">
+                        <input type="text" placeholder="First Name"/>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Last Name" />
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="input-container">
+                        <input type="tel" placeholder="Mobile No.">
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="input-container">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="input-container">    
+                        <input type="password" placeholder="Password"/>
+                    </div>
+                    <div class="input-container">
+                        <input type="password" placeholder="Confirm Password" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="term-div" id="term-div-left">
+                        <input type="checkbox" id="Iagree" name="Iagree">
+                        <label for="Iagree"><b>I Agree</b></label>
+                    </div>
+                    <div class="term-div" id="term-div-right">
+                        <label for="Iagree">By clicking <span id="register">Register</span>, you agree to the <a href="#"> Terms and Conditions </a> set out by the site, including our Cookie use.</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="button-container">
+                        <div id="register">Register</div>
+                    </div>
+    
+                    <div class="button-container">
+                        <div id="signin">Sign In</div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
